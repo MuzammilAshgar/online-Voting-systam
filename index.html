@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>online-Voting-systam</title>
+    <link rel="stylesheet" href="file/css/Css1.css">
 </head>
 <body>
-    // this is h1 tag use for herd
-    <h1>online-Voting-systam</h1>
-    //this hr tag use for line
-    <hr>
 
-    //this is full from of login input tag use for data inseit and select tag use for dorpdown
+<div id="iherder">
+    <!---this is h1 tag use for herd -->
+    <h1>online-Voting-systam</h1>
+    </div>
+<!---this hr tag use for line -->
+<hr>
+
+    <div id="iform">
+    <!---this is full from of login input tag use for data inseit -->
     <form action="#">
+        <h2>Login</h2>
         <input type="number" name="namenumber" id="idnumber" placeholder="Enter Your Number"><br><br>
         <input type="password" name="namepassword" id="idpassword" placeholder="Enter Your password"><br><br>
-        <select name="role">
+
+       <!--- select tag use for dorpdown -->
+        <select name="role" id="idorpbox">
             <option value="1">Voting</option>
             <option value="2">group</option>
         </select><br><br>
-        <button>Login</button><br><br>
-        New user?<a href="#">Sign up</a> 
-        
+        <button id="iloginbtn">Login</button><br><br>
+        New user?<a href="file/signup.html">Sign up</a> 
+    </div>
 
     </form>
 </body>

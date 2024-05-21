@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-color: rgb(183, 233, 199);
+}
+#iherder{
+    padding: 5px;;
+ }
+
+#iherder h1{
+font-family: cursive;
+}
+
+#iform input{
+    padding: 10px;
+    border-radius: 5px;
+}
+#idorpbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 15%;
+    
+}
+
+#iloginbtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: black;
+}
