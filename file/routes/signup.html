@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>online-Voting-systam-registration</title>
-    <link rel="stylesheet" href="css/Css1.css">
+    <link rel="stylesheet" href="../css/Css1.css">
 </head>
 <body>
 
@@ -16,7 +16,7 @@
     <hr>
 
     <!--- this is signup form -->
-    <form action="api/signup.php" id="rform" method="post">
+    <form action="../../api/signup.php" id="rform" method="post" enctype="multipart/form-data">
         <h1>Registration</h1>
         <input type="text" name="rname" placeholder="Enter Your Name">
         <input type="number" name="rnumber" placeholder="Enter Your Phone number"><Br><Br>
@@ -40,7 +40,7 @@
         
         <!--- this button use for signup or if user pass this so form stat set data and sand in backend code-->
         <Br><button id="rloginbtn">Register</button><Br><Br>
-        Already user?<a href="../index.html">Login here</a>
+        Already user?<a href="../../index.html">Login here</a>
     </form>
 </body>
 </html>
