@@ -1,6 +1,8 @@
 <?php
 include('connection.php');
 
+
+
 $name = $_POST['rname'];
 $phone = $_POST['rnumber'];
 $address = $_POST['raddress'];
@@ -9,6 +11,7 @@ $repassword = $_POST['rcpwd'];
 $dorpdown = $_POST['rrole'];
 $img = $_FILES['img']['name'];
 $tmp_name = $_FILES['img']['tmp_name'];
+
 
 // this if is chack data is not a null or something wory
 if ($password == $repassword && !$name == null && !$img == null && !$password == null && !$repassword == null) {
